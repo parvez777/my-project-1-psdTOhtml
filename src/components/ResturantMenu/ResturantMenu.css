@@ -1,0 +1,48 @@
+.rm-title h1 {
+  padding-bottom: 40px;
+}
+.resturant {
+  height: auto;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+}
+.rm-menu {
+  background: #323232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  width: 900px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.rm-menu li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rm-menu p {
+  font-size: 17px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 15px;
+}
+.rm-content {
+  width: 500px;
+  background: white;
+  padding: 40px 15px;
+}
+.rm-menu-content strong {
+  color: green;
+}
+.rm-menu-content h2 {
+  padding: 15px 0;
+}
+.rm-menu-content p {
+  padding-bottom: 15px;
+}

@@ -1,0 +1,37 @@
+.footer {
+  width: 100%;
+  background: #323232;
+  padding: 50px 20px;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+.footer-menu > p {
+  color: white;
+  padding-right: 15px;
+  margin: 0 15px;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-right: 2px solid white;
+}
+.copyRight {
+  margin-top: 80px;
+}
+.copyRight p {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.social-sites {
+  margin-top: 20px;
+}

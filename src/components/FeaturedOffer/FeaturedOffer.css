@@ -1,0 +1,31 @@
+.FeaturedOffer {
+  height: 500px;
+  width: 100%;
+  padding: 100px 20px;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.featured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.featuredContent img {
+  width: 350px;
+  margin: 0 15px;
+}
+.featuredContent h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.featuredContent p {
+  text-align: center;
+  margin-top: 20px;
+  color: green;
+  font-size: 18px;
+  font-weight: 600;
+}

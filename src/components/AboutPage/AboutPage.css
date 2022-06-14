@@ -1,0 +1,150 @@
+.aboutHero {
+  width: 100%;
+  height: 500px;
+  background-image: url(./aboutImg/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutHero h1 {
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+.abMenu ul {
+  list-style: none;
+  display: contents;
+}
+.abMenu {
+  display: flex;
+  padding-top: 15px;
+}
+.abMenu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+/* About our resturant section */
+.aboutOurResturant {
+  background: #f5f5f5;
+}
+.aboutResturant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img img {
+  width: 400px;
+}
+.aboutResturant {
+  padding: 50px 10px;
+}
+.img {
+  margin: 0 10px;
+  padding: 20px;
+}
+.aboutContent {
+  margin: 0 10px;
+  padding: 20px;
+}
+
+.aboutContent h2 {
+  text-align: center;
+}
+.aboutContent h2 span {
+  color: green;
+  font-weight: 700;
+}
+.aboutContent h1 {
+  padding: 25px 0;
+}
+/*===============
+Why Choose Us
+================*/
+.whyChooseUs {
+  padding: 80px 20px;
+}
+.chooseUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 0 100px;
+}
+.chooseUsContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  gap: 25px;
+}
+.chooseUsIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.chooseContent h3 {
+  padding: 10px 0;
+}
+/* Testimonials Section */
+.testimonials {
+  width: 100%;
+  height: 400px;
+  background-image: url(../../images/bg-image-2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials h1 {
+  color: white;
+  text-align: center;
+}
+.testimonialsContent {
+  width: 500px;
+}
+.testimonialsContent p {
+  color: white;
+  padding: 15px 300px;
+  text-align: center;
+}
+.testimonialsAvatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 10px;
+}
+/* Our Brand */
+.ourBrand {
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ourBrand h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.brandLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.brandLogo img {
+  width: 250px;
+}

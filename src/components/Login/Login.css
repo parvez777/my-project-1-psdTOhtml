@@ -1,0 +1,58 @@
+.loginHero {
+  width: 100%;
+  height: 500px;
+  background-image: url(../AboutPage/aboutImg/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginHero h1 {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+.singnUp {
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.singnUp form {
+  width: 500px;
+  height: auto;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  gap: 15px;
+}
+.singnUp form > input {
+  width: 100%;
+  padding: 15px 10px;
+}
+.singnUp form h2 {
+  text-transform: uppercase;
+  padding-bottom: 8px;
+}
+.bottomBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.bottomBtn button {
+  padding: 8px 15px;
+}
+.bottomBtn p {
+  padding: 8px 15px;
+  font-size: 17px;
+}
+.bottomBtn p strong {
+  cursor: pointer;
+}

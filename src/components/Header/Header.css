@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 60px 0;
+  background: transparent;
+  position: sticky;
+  top: 0;
+}
+.logo img {
+  width: 200px;
+}
+.menu ul {
+  list-style: none;
+}
+.menu > ul > li > a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.menu > ul > li > a:hover {
+  color: crimson;
+  border-bottom: 2px solid crimson;
+}
+.menu > a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.menu a:hover {
+  color: crimson;
+  border-bottom: 2px solid crimson;
+}
