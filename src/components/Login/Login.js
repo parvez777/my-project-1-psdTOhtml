@@ -9,7 +9,8 @@ const Login = () => {
             <h1>Sign Up and Sign In</h1>
         </div>
 
-        <Container className='singnUp'>
+        <Container>
+            <div className="singnUp">
             <form action="">
             <h2>{newUser ? "Sign Up" : "Sign In"}</h2>
 {
@@ -23,6 +24,7 @@ const Login = () => {
     <p>{newUser ? "Already Have An Account?" : "New User?"} <strong onClick={()=> setNewUser(!newUser)}>{newUser ? "Sign In" : "Sign Up"}</strong></p>
 </div>
             </form>
+            </div>
         </Container>
         </div>
     );

@@ -9,6 +9,7 @@ import Login from "./components/Login/Login";
 
 function App() {
   return (
+    <div>
     <Router>
       <Header />
 
@@ -21,6 +22,7 @@ function App() {
 
       <Footer />
     </Router>
+    </div>
   );
 }
 
